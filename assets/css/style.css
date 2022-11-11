@@ -30722,3 +30722,6 @@ h4.checkout-title::before {
     padding-bottom: 30px;
   }
 }
+.logo img {
+  max-width: 200px;
+}
