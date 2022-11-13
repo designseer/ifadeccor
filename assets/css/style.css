@@ -8960,22 +8960,25 @@ textarea:focus {
 }
 
 .slider-content-7 {
-  background-color: #AFA2A7;
-  margin-right: -135px;
-  position: relative;
-  z-index: 9;
-  padding: 63px 50px 63px;
+  background-color: #d13e43;
+    margin-right: -135px;
+    position: relative;
+    z-index: 9;
+    padding: 63px 50px 63px;
+    border-radius: 90px 0;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slider-content-7 {
     padding: 40px 30px 40px;
+    border-radius: 0;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider-content-7 {
     padding: 30px 30px 30px;
+    border-radius: 0;
   }
 }
 
@@ -8983,6 +8986,7 @@ textarea:focus {
   .slider-content-7 {
     padding: 30px 30px 30px;
     margin-right: 0px;
+    border-radius: 0;
   }
 }
 
@@ -8990,6 +8994,7 @@ textarea:focus {
   .slider-content-7 {
     padding: 50px 30px 50px;
     margin-right: 0px;
+    border-radius: 0;
   }
 }
 
@@ -10629,7 +10634,7 @@ textarea:focus {
 
 .dot-style-4 .slick-dots li.slick-active button::after {
   opacity: 1;
-  width: 87px;
+  width: 35px;
 }
 
 .dot-style-4 .slick-dots li:last-child button {
@@ -30724,4 +30729,7 @@ h4.checkout-title::before {
 }
 .logo img {
   max-width: 200px;
+}
+.mobile-logo img {
+  max-width: 160px;
 }
