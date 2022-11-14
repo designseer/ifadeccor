@@ -20477,7 +20477,9 @@ textarea:focus {
   background-color: #ffffff;
   padding: 40px;
 }
-
+.single-categories-6-img img {
+  width: 100%;
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .single-categories {
     padding: 30px 15px;
